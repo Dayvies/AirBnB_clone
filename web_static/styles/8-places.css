@@ -1,0 +1,106 @@
+.places{
+        display: flex;
+        flex-flow: row wrap;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+
+}
+.places h1{
+        margin-top: 0;
+        margin-left: 0;
+        flex:0 100%;
+        margin-bottom: 0;
+}
+.places article{
+        display: flex;
+        width: 390px;
+        margin: 20px;
+        flex-basis: 40%;
+        grid-row-start: 2;
+        order:2;
+        padding: 20px;
+        border:solid #FF5A5F 1px;
+        justify-content: flex-end;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-radius:4px;
+        align-self: stretch;
+        
+}
+.places article h2{
+        
+        font-size: 30px;
+        text-align: center;
+        margin-top:0;
+        width: 65%;
+        align-content: center;
+        align-self: center;
+}
+.price_by_night{
+        color: #FF5A5F;
+        border:solid #FF5A5F 4px;
+        border-radius: 50%;
+        height: 60px;
+        font-size: 30px;
+        line-height: 70%;
+        align-self: flex-end;
+        float: right;
+        padding-right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        min-width: 60px;
+}
+.information{
+        display: flex;
+        justify-content:center;
+        flex:0 100%;
+        flex-direction: row;
+        border-top: solid #DDDDDD 1px;
+        border-bottom: solid #DDDDDD 1px;
+        padding-top: 10px;
+        margin-top: 10px;
+}
+.maxguest{
+        width: 100px;
+        margin-left: 30px;
+}
+.icon_guest{
+        content: url("../images/icon_group.png");
+        margin-right: 50px;
+}
+.number_rooms{
+        width: 100px;
+        margin-left: 21px;
+
+}
+.icon_bed{
+        content: url("../images/icon_bed.png");
+        margin-left: 18px;
+        
+}
+.number_bathrooms{
+        width: 100px;
+        margin-left: 20px;
+        margin-right: -5px;
+}
+.icon_bath{
+        content: url("../images/icon_bath.png");
+        margin-left: 20.3px;
+}
+.user{
+        align-items: center;
+        flex:0 100%;
+        display: flex;
+        margin-bottom: -20px;
+
+}
+.user h4{
+        margin-right: 10px;
+}
+.description{
+        display: flex;
+}

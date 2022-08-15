@@ -1,0 +1,105 @@
+.filters{
+        background-color: WHITE;
+        height : 70px;
+        width : 100%;
+        border:solid 1px #DDDDDD ;
+        border-radius: 4px;
+        flex: 100 100%;
+        display :flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        
+        
+       
+}
+.filters button{
+        font-size: 16px;
+        background-color:#FF5A5F;
+        color:#FFFFFF;
+        position: relative;
+
+        height : 48px;
+        float: right;
+        width:20%;
+        border-radius: 4px;
+        margin-left: auto;
+        margin-right: 30px;
+
+}
+.filters button:hover {
+        opacity: 90%;
+}
+.filters .locations{
+        height: 100%;
+        width:25%;
+        border-right:solid #DDDDDD 1px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+}
+.filters .locations h3{
+        font-weight: 600;
+        padding-left: 30px;
+        flex: 0 50%;
+        margin-bottom: -20px;
+
+
+}
+.filters .locations h4{
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 30px;
+        margin : 0;
+        margin-top: 20px;
+}
+.filters .amenities{
+        height: 100%;
+        width:25%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+}
+.filters .amenities h3{
+        font-weight: 600;
+        padding-left: 30px;
+        flex: 0 50%;
+        margin-bottom: -20px;
+
+
+}
+.filters .amenities h4{
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 30px;
+        margin : 0;
+        margin-top: 20px;
+}
+.filters .popover{
+        list-style: none;
+        padding-left: 10px;
+        padding-top: 20px ;
+        background-color: #FAFAFA;
+        width: 100%;
+        border: solid 1px #DDDDDD;
+        border-radius: 4px;
+        visibility: hidden;
+        margin-bottom: 20px;
+}
+.locations:hover .popover{
+                visibility: visible;
+                z-index: 1;
+        
+}
+.amenities:hover .popover{
+        visibility: visible;
+        opacity: 100%;
+        z-index: 1;
+
+}
+.popover li h2{
+        
+        margin-top: 3px;
+        margin-bottom: 0;
+        font-size: 16px
+}
