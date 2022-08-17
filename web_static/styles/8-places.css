@@ -57,6 +57,7 @@
 .information{
         display: flex;
         justify-content:center;
+        height: 80px;
         flex:0 100%;
         flex-direction: row;
         border-top: solid #DDDDDD 1px;
